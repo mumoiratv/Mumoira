@@ -1,0 +1,23 @@
+#pageslide {
+    opacity: 0;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: -260px;
+    height: 100%;
+    z-index: 999999;
+    width: 260px;
+    padding: 0 20px;
+    background-color: #002637;
+    color: #FFF;
+    -webkit-box-shadow: inset 0 0 5px 5px #222;
+    -moz-box-shadow: inset 0 0 5px 5px #222;
+    box-shadow: inset 0 0 5px 5px #222;
+    transition: all .3s;
+}
+
+
+    #pageslide.active {
+        opacity: 1;
+        left: 0;
+    }
